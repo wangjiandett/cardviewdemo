@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearCardView"/>
+
+    <com.dett.cardview.LinearCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@color/livepusher_accent" />
+
+       <TextView
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:layout_marginStart="10dp"
+           android:background="@color/grading_title_bar_bg" />
+
+    </com.dett.cardview.LinearCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeCardView"/>
+
+    <com.dett.cardview.RelativeCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/livepusher_red"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@color/grading_title_bar_tip_left" />
+
+       <TextView
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentBottom="true"
+           android:background="@color/grading_title_bar_tip_left" />
+
+    </com.dett.cardview.RelativeCardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CardView"/>
+
+    <com.dett.cardview.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/livepusher_green"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@color/grading_bottom_bar_warning_bg" />
+
+    </com.dett.cardview.CardView>
+
+</LinearLayout>
