@@ -30,6 +30,7 @@
         <attr name="android:minHeight" />
     </declare-styleable>
 
+    <!--由于RelativeCardView中对以下属性都做了声明，这里只需直接引用即可-->
     <declare-styleable name="LinearCardView">
         <!-- Background color for CardView. -->
         <attr name="cardBackgroundColor"/>
@@ -57,9 +58,9 @@
         <attr name="android:minWidth" />
         <!-- Workaround to read user defined minimum height -->
         <attr name="android:minHeight" />
-
     </declare-styleable>
 
+    <!--由于RelativeCardView中对以下属性都做了声明，这里只需直接引用即可-->
     <declare-styleable name="FrameCardView">
         <!-- Background color for CardView. -->
         <attr name="cardBackgroundColor"/>
@@ -87,7 +88,6 @@
         <attr name="android:minWidth" />
         <!-- Workaround to read user defined minimum height -->
         <attr name="android:minHeight" />
-
     </declare-styleable>
 
     <!--公共属性-->
