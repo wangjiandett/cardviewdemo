@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="CardView"/>
 
-    <com.dett.cardview.CardView
+    <com.dett.cardview.FrameCardView
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
@@ -77,6 +77,6 @@
             android:layout_height="60dp"
             android:background="@color/grading_bottom_bar_warning_bg" />
 
-    </com.dett.cardview.CardView>
+    </com.dett.cardview.FrameCardView>
 
 </LinearLayout>

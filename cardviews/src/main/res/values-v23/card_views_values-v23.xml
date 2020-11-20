@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CardView" parent="Base.CardView">
+    <style name="RelativeCardView" parent="Dett_Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+
+    <style name="LinearCardView" parent="Dett_Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+
+    <style name="FrameCardView" parent="Dett_Base.CardView">
         <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
     </style>
 </resources>
