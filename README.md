@@ -30,8 +30,19 @@
 'androidx.cardview:cardview:1.0.0'
 ```
 
-如果没有使用`androidx`使用`support`库中的代码需要将`cardviews`库中的每个类中导入的包名改成`support`库中对应的就行了
+如果没有使用`androidx`使用`support`库中的代码需要将`cardviews`库中的每个类中导入的包名改成`support`库中对应的就行了，如：复制如下包中的类
 
 ```
 'com.android.support:cardview-v7:23.2.0'
 ```
+
+**2020.11.20 修改**
+
+在代码都复制进来后，功能时可以用了，但是在xml布局的时候编写属性无法自动提示要输入的属性
+再此修改了`card_views_values.xml`中的属性配置，分别为`RelativeCardView`,`FrameCardView`,`LinearCardView`都自定义了一份属性声明。
+方便在android studio的xml中编写属性时自动提示
+
+
+
+
+
